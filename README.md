@@ -1,6 +1,6 @@
-# Bicep Modules Collection
+# Az Bicep Modules Collection
 
-Welcome to the **Bicep Modules Collection** repository. This repository contains a collection of open-source [Bicep](https://github.com/Azure/bicep) modules designed to simplify and automate Azure infrastructure deployment. These modules are publicly available and licensed under the **GNU General Public License v3.0**.
+Welcome to the **Az Bicep Modules Collection** repository. This repository contains a collection of open-source [Bicep](https://github.com/Azure/bicep) modules designed to simplify and automate Azure infrastructure deployment. These modules are publicly available and licensed under the **GNU General Public License v3.0**.
 
 ## Purpose
 
@@ -24,8 +24,7 @@ To use a module from this repository in your own project:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/username/BicepModulesCollection.git
-   cd BicepModulesCollection
+   git clone https://github.com/AzMaxH/AzBicep.git
 
 2. Import the module into your main Bicep file using the relative path
 
