@@ -1,6 +1,6 @@
 # Az Bicep Modules Collection
 
-Welcome to the **Az Bicep Modules Collection** repository. This repository contains a collection of open-source [Bicep](https://github.com/Azure/bicep) modules designed to simplify and automate Azure infrastructure deployment. These modules are publicly available and licensed under the **GNU General Public License v3.0**.
+Welcome to the **Az Bicep Modules Collection** repository. This repository contains a collection of open-source [Bicep](https://github.com/Azure/bicep) modules designed to simplify and automate Azure infrastructure deployments. These modules are publicly available and licensed under the **GNU General Public License v3.0**.
 
 ## Purpose
 
@@ -29,7 +29,6 @@ To use a module from this repository in your own project:
 2. Import the module into your main Bicep file using the relative path
 
 ## Available Modules
-Modules Disponibles
 |   Module        |   Description	                                                      |   Version |
 |-----------------|---------------------------------------------------------------------|-----------|
 |   vnet.bicep  	|   Bicep module for creating a virtual network on Azure	            |   1.0.0   |
