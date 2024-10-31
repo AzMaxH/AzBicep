@@ -36,7 +36,7 @@ resource resourceGroup 'Microsoft.Resources/resourceGroups@2024-03-01' = {
   tags: tags
 }
 
-module lock 'modules/lock.bicep' = if (LockCanNotDelete == true) {
+module resourceGroup_lock 'modules/lock.bicep' = if (LockCanNotDelete == true) {
   name: '${resourceGroupName}-lock'
   params: {
     LockName: LockName
