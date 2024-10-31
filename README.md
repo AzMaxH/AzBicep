@@ -29,12 +29,18 @@ To use a module from this repository in your own project:
 2. Import the module into your main Bicep file using the relative path
 
 ## Available Modules
+### Network
 |   Module        |   Description	                                                      |   Version |
 |-----------------|---------------------------------------------------------------------|-----------|
 |   vnet.bicep  	|   Bicep module for creating a virtual network on Azure	            |   1.0.0   |
 |   nsg.bicep	    |   Bicep module for creating a Network Security Group on Azure	      |   1.0.0   |
 |   asg.bicep	    |   Bicep module for creating an application security group on Azure	|   1.0.0   |
 |   rt.bicep	    |   Bicep module for creating a route table in Azure	                |   1.0.0   |
+
+### Resources
+|   Module                  |   Description	                                                      |   Version |
+|---------------------------|---------------------------------------------------------------------|-----------|
+|   resource-group.bicep  	|   Bicep module for creating a virtual network on Azure	            |   1.0.0   |
 
 Each module includes usage examples and specific configuration information in its own README file.
 
