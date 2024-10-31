@@ -57,8 +57,8 @@ module azrg 'https://github.com/AzMaxH/AzBicep/blob/main/resources/resource-grou
     LockName: 'DoNotDelete'
     roleAssignments: [
       {
-        principalId: 'fa3ba017-8753-4fb0-a323-d45b4e580b7c'
-        principalType: 'ServicePrincipal'
+        principalId: '<Userid>'
+        principalType: 'User'
         roleDefinitionIdOrName: 'Contributor'
       }
     ]
