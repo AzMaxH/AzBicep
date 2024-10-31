@@ -22,7 +22,7 @@ This Bicep module deploys an **Application Security Group (ASG)** in Azure. ASGs
 Here is an example of how to use this module in a Bicep deployment.
 
 ```bicep
-module azasg 'https://github.com/AzMaxH/AzBicepModules/blob/main/network/asg.bicep' = {
+module azasg 'https://github.com/AzMaxH/AzBicep/blob/main/network/application-security-group/main.bicep' = {
   name: 'AsgDeployment'
   params: {
     asgName: 'myAppSecurityGroup'
