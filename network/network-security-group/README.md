@@ -25,7 +25,7 @@ This Bicep module deploys a **Network Security Group (NSG)** in Azure, with supp
 Here is an example of how to use this module in a Bicep deployment.
 
 ```bicep
-module aznsg 'https://github.com/AzMaxH/AzBicepModules/blob/main/network/nsg.bicep' = {
+module aznsg 'https://github.com/AzMaxH/AzBicep/blob/main/network/network-security-group/main.bicep' = {
   name: 'NsgDeployment'
   params: {
     nsgName: 'NSG'

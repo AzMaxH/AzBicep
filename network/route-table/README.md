@@ -24,7 +24,7 @@ This Bicep module deploys a **Route Table** in Azure with options for custom rou
 Here is an example of how to use this module in a Bicep deployment.
 
 ```bicep
-module azrt 'https://github.com/AzMaxH/AzBicepModules/blob/main/network/rt.bicep' = {
+module azrt 'https://github.com/AzMaxH/AzBicep/blob/main/network/route-table/main.bicep' = {
   name: 'RouteTableDeployment'
   params: {
     routeTableName: 'RouteTable'
