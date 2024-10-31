@@ -27,7 +27,7 @@ Here are examples of how to use this module in a Bicep deployment.
 ### Basic Deployment Example
 
 ```bicep
-module resourceGroup './modules/resource-group.bicep' = {
+module azrg 'https://github.com/AzMaxH/AzBicep/blob/main/resources/resource-group/main.bicep' = {
   name: 'resourceGroupDeployment'
   params: {
     resourceGroupName: 'myResourceGroup'
@@ -45,7 +45,7 @@ module resourceGroup './modules/resource-group.bicep' = {
 ### Deployment with Role Assignments Example
 
 ```bicep
-module resourceGroup './modules/resource-group.bicep' = {
+module azrg 'https://github.com/AzMaxH/AzBicep/blob/main/resources/resource-group/main.bicep' = {
   name: 'resourceGroupWithRolesDeployment'
   params: {
     resourceGroupName: 'myResourceGroup'
