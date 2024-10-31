@@ -1,3 +1,11 @@
+/*
+Name : storage-account
+Azure Resource : Storage Account
+Description : Bicep module for creating a storage account on Azure
+Version : 1.0
+Contributor : Maxence Holvoet
+*/
+
 // Mandatory parameters
 @description('Name of the storage account')
 @maxLength(24)
@@ -6,7 +14,7 @@ param storageAccountName string
 @description('Location/Region of the storage account')
 param location string
 
-// Parameters with default values
+// Optional parameters
 @description('Tags to be assigned to the resources')
 param tags object = {}
 

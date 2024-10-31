@@ -51,7 +51,7 @@ module azvnet 'https://github.com/AzMaxH/AzBicep/blob/main/network/virtual-netwo
 ### Advanced Deployment Example
 
 ```bicep
-module azvnet 'https://github.com/AzMaxH/AzBicepModules/blob/main/network/vnet.bicep' = {
+module azvnet 'https://github.com/AzMaxH/AzBicep/blob/main/network/virtual-network/main.bicep' = {
   name: 'vnetDeployment'
   params: {
     vnetName: 'myVNet'
